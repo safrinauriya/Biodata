@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+		android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    	    android:paddingBottom="@dimen/activity_vertical_margin"
+    	    android:paddingLeft="@dimen/activity_horizontal_margin"
+    	    android:paddingRight="@dimen/activity_horizontal_margin"
+    	    android:paddingTop="@dimen/activity_vertical_margin"
+			android:background="@drawable/bg3"
+    	    android:orientation="vertical"
+			tools:context=".MainActivity">
+
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="FORM BIODATA DIRI"
+			android:textStyle="bold"
+			android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+			android:textColor="#6E4646" />
+
+    	    <TextView
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:text="@string/Name" />
+
+		<EditText
+			android:id="@+id/edt_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="@drawable/custom2"
+			android:backgroundTint="#F4D6B2"
+			android:inputType="text"
+			android:lines="1"
+			android:padding="15dp"
+			android:textColor="#6E4646"
+			android:textColorHint="@android:color/white" />
+
+    	    <TextView
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:text="@string/Birthday" />
+
+    	    <EditText
+    	        android:id="@+id/edt_birthday"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+				android:textColor="#6E4646"
+                android:textColorHint="@android:color/white"
+                android:background="@drawable/custom2"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:inputType="text"
+    	        android:lines="1" />
+
+    	    <TextView
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:text="@string/Address" />
+
+    	    <EditText
+    	        android:id="@+id/edt_address"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+				android:textColor="#6E4646"
+                android:textColorHint="@android:color/white"
+                android:background="@drawable/custom2"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+    	        android:inputType="text"
+    	        android:lines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Telp"/>
+
+            <EditText
+                android:id="@+id/edt_telp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:textColor="#6E4646"
+                android:textColorHint="@android:color/white"
+                android:background="@drawable/custom2"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:lines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Hobby"/>
+
+
+            <EditText
+                android:id="@+id/edt_hobby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:textColor="#6E4646"
+                android:textColorHint="@android:color/white"
+                android:background="@drawable/custom2"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:lines="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Dream"/>
+
+            <EditText
+                android:id="@+id/edt_dream"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#6E4646"
+                android:textColorHint="@android:color/white"
+                android:background="@drawable/custom2"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:lines="1" />
+
+		<Button
+			android:id="@+id/btn_got"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom"
+			android:layout_gravity ="center"
+			android:text="@string/Got"
+			android:textColor="#FBFBFB"
+			android:textColorHighlight="#FFFFFF"
+			android:textColorLink="#EAC9C9" />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:paddingTop="@dimen/activity_horizontal_margin"
+			android:paddingBottom="@dimen/activity_horizontal_margin"
+			android:text="@string/biodata"
+			android:textColor="#6E4646"
+			android:textSize="25dp"
+			android:textStyle="bold" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom3"
+			android:paddingBottom="@dimen/activity_horizontal_margin"
+			android:paddingTop="@dimen/activity_horizontal_margin"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_marginStart="8dp"
+				android:layout_marginTop="8dp"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:text="@string/Name" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:text="@string/Birthday" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:text="@string/Address" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:text="@string/Telp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:text="@string/Hobby" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:text="@string/Dream" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_marginStart="8dp"
+				android:layout_marginTop="8dp"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="@string/Titikdua" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="@string/Titikdua" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="@string/Titikdua" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="@string/Titikdua" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="@string/Titikdua" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:text="@string/Titikdua" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="8dp"
+				android:layout_marginTop="8dp"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/tv_name"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+				<TextView
+					android:id="@+id/tv_birthday"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+				<TextView
+					android:id="@+id/tv_address"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+				<TextView
+					android:id="@+id/tv_telp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+				<TextView
+					android:id="@+id/tv_hobby"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+				<TextView
+					android:id="@+id/tv_dream"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+			</LinearLayout>
+		</LinearLayout>
+    	</LinearLayout>
+</ScrollView>

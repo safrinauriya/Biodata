@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Perkenalan</string>
+    <string name="Name">Nama</string>
+    <string name="Birthday">Tanggal</string>
+    <string name="Address">Alamat</string>
+    <string name="Telp">Telp</string>
+    <string name="Hobby">Hobby</string>
+    <string name="Dream">Keinginan</string>
+    <string name="Got">Lihat</string>
+    <string name="Result">Hasil</string>
+    <string name="Titikdua">:</string>
+    <string name="biodata">BIODATA DIRI ANDA</string>
+</resources>
